@@ -3,20 +3,12 @@ This program is a simple java keyword extraction program from a text file. The n
 
 There are three command-line arguments to your program. It should be evoked as:
                                                
-                                               Java FindKeyWordsInFile k file.txt MostFrequentEnglishWords.txt
+                                  Java FindKeyWordsInFile k file.txt MostFrequentEnglishWords.txt
 
 Where,
-• The first input argument is an integer k which specifies how many most frequent words to
-consider. For example, if k = 100, then only the 100 most frequent words in "file.txt" are
-eligible to become the keywords.
-• The second command line argument is the name of the file, "file.txt," to extract keywords
-from.
-• The last command line argument, "MostFrequentEnglishWords.txt" is a text file that
-contains the most frequent English words.
-The program should output a list of keywords and their frequencies in alphabetical order. Each
-keyword and its frequency should be displayed on a separate line. For instance, if the words "apple"
-(frequency 5), "ball" (frequency 6), and "rocket" (frequency 4) were extracted by the program, the
-output should appear as follows:
+• The first input argument is an integer k which specifies how many most frequent words to consider. For example, if k = 100, then only the 100 most frequent words in "file.txt" are eligible to become the keywords.
+• The second command line argument is the name of the file, "file.txt," to extract keywords from.
+• The last command line argument, "MostFrequentEnglishWords.txt" is a text file that contains the most frequent English words. The program should output a list of keywords and their frequencies in alphabetical order. Each keyword and its frequency should be displayed on a separate line. For instance, if the words "apple" (frequency 5), "ball" (frequency 6), and "rocket" (frequency 4) were extracted by the program, the output should appear as follows:
 apple 5
 ball 6
 rocket 4
